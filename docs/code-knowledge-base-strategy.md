@@ -72,6 +72,11 @@ If tags are missing, ambiguous, or produce no useful evidence, broaden to
 symbol, lexical, or semantic search. Record when fallback was needed so the
 catalog can improve.
 
+For a complementary discovery layer, see
+[repository embeddings and semantic search](repository-embeddings.md).
+Use embedding similarity to find candidates and call maps to inspect their
+structural relationships.
+
 ## 4. Budget the working context
 
 Tokens are the model's working space. A million tokens corresponds very roughly

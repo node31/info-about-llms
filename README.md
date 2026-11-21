@@ -14,6 +14,11 @@ evidence.
 4. [A documentation-first code knowledge base](docs/code-knowledge-base-strategy.md):
    a proposed tags-first retrieval strategy with call maps and progressive access
    to source code.
+5. [What GPT stands for](docs/what-gpt-means.md):
+   Generative Pre-trained Transformer.
+6. [Repository embeddings and semantic search](docs/repository-embeddings.md):
+   persistent indexes, similarity versus dependencies, and retrieving evidence
+   without filling the prompt with vectors.
 
 ## Reading guide
 
