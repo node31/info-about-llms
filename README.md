@@ -19,6 +19,9 @@ evidence.
 6. [Repository embeddings and semantic search](docs/repository-embeddings.md):
    persistent indexes, similarity versus dependencies, and retrieving evidence
    without filling the prompt with vectors.
+7. [Evaluating retrieval tools and LLM applications](docs/evaluation-metrics.md):
+   established metrics, a code-repo scorecard, and controlled experiments that
+   separate retrieval failures from generation failures.
 
 ## Reading guide
 
