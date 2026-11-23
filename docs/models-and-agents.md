@@ -1,7 +1,8 @@
 # Multimodal models, multilingual models, and agents
 
 These terms describe different dimensions: data types, natural languages, and
-how a system controls actions.
+how a system controls actions. Domain specialization is another dimension, not
+a subset of modality or language coverage.
 
 ## Multimodal: different kinds of information
 
@@ -41,6 +42,31 @@ Output: A Hindi text summary.
 This example remains text-only. Different natural languages are not different
 modalities. Language coverage also does not imply equal quality in every
 language. See the [Aya multilingual model paper][multilingual].
+
+## Domain-specific: specialized subject matter or tasks
+
+A domain-specific model is developed or adapted for an area such as medicine,
+law, finance, or software engineering. This does not by itself specify its
+modalities, supported languages, or whether an application uses it as an agent.
+
+Hypothetical combinations:
+
+| Specialization | Modalities | Natural languages |
+| --- | --- | --- |
+| Legal document analysis | Text only | English only |
+| Financial document search | Text only | English and Hindi |
+| Medical image explanation | Text and images | English only |
+| Medical image explanation | Text and images | Multiple languages |
+
+These are illustrative possibilities, not claims about particular products.
+A concrete example of specialization with different modality options is
+MedGemma, whose public description includes both text and multimodal medical
+variants. See [Google's MedGemma overview][domain-model].
+
+Model role is also separate: a domain-specific embedding model produces
+representations for search, while a domain-specific generative model produces
+answers. Neither role automatically implies agentic execution.
+See [embedding benchmarks](benchmarks.md).
 
 ## Agent: a system that selects actions
 
@@ -85,3 +111,4 @@ Treat these as independent design choices and evaluate each on the actual task.
 [gemini]: https://arxiv.org/abs/2312.11805
 [multilingual]: https://arxiv.org/abs/2402.07827
 [agents]: https://www.anthropic.com/research/building-effective-agents
+[domain-model]: https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/

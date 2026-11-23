@@ -23,8 +23,10 @@ evidence.
    established metrics, a code-repo scorecard, and controlled experiments that
    separate retrieval failures from generation failures.
 8. [Multimodal models, multilingual models, and agents](docs/models-and-agents.md):
-   input/output capabilities, language coverage, and the difference between a
-   model and an action-taking system.
+   input/output capabilities, language coverage, domain specialization, and the
+   difference between a model and an action-taking system.
+9. [SWE-bench, MTEB, and RTEB](docs/benchmarks.md):
+   software issue resolution versus embedding quality and retrieval evaluation.
 
 ## Reading guide
 
