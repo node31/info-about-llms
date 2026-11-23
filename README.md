@@ -22,6 +22,9 @@ evidence.
 7. [Evaluating retrieval tools and LLM applications](docs/evaluation-metrics.md):
    established metrics, a code-repo scorecard, and controlled experiments that
    separate retrieval failures from generation failures.
+8. [Multimodal models, multilingual models, and agents](docs/models-and-agents.md):
+   input/output capabilities, language coverage, and the difference between a
+   model and an action-taking system.
 
 ## Reading guide
 
