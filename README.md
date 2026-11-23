@@ -27,6 +27,9 @@ evidence.
    difference between a model and an action-taking system.
 9. [SWE-bench, MTEB, and RTEB](docs/benchmarks.md):
    software issue resolution versus embedding quality and retrieval evaluation.
+10. [What Ragas evaluates](docs/ragas.md):
+    a metric framework for testing retrieval and generated answers on your own
+    application data, rather than a single fixed benchmark.
 
 ## Reading guide
 

@@ -97,6 +97,12 @@ These are engineering recommendations, not guaranteed model-selection rules.
 Never infer that a high general embedding score guarantees strong code search,
 or that a high coding score guarantees reliable retrieval in a new codebase.
 
+## Where Ragas fits
+
+[Ragas](ragas.md) is an evaluation framework with configurable metrics, not
+another fixed benchmark equivalent to these datasets and task suites. Use it to
+build evaluations of a particular retrieval-and-generation application.
+
 For score definitions and experiment design, see
 [evaluation metrics](evaluation-metrics.md). For the independent dimensions of
 domain, modality, language, and agent behavior, see
